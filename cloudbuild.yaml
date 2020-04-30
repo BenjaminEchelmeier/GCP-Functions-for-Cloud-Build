@@ -3,8 +3,8 @@ steps:
   args:
     [ 'functions',
       'deploy',
-      '$_BRANCH_FUNC',
+      '$_FUNC_NAME',
       '--source',
-      '$_BRANCH_SOURCE'
+      '$_SOURCE'
     ]
     
