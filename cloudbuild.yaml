@@ -5,6 +5,6 @@ steps:
       'deploy',
       '$_FUNC_NAME',
       '--source',
-      '$_SOURCE'
+      'https://source.developers.google.com/projects/$PROJECT_ID/repos/$REPO_NAME/moveable-aliases/$BRANCH_NAME/paths//'
     ]
     
